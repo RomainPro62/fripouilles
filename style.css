@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+}
+#header {
+    height: 24vh;
+    background-repeat: no-repeat;
+    background-image: url("background.png");
+    background-size: cover;
+}
+#footer {
+    background: black;
+    color: white;
+    min-height: 24vh;
+}
+.contain {
+    display: flex;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+.copyright {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.form-control {
+    width: 60%;
+    margin-left: 10px;
+}
+.form-control > .checkbox {
+    float: right;
+}
+.btn_envoye {
+    display: flex;
+    margin-left: 400px;
+    border: 2px solid black;
+}
+.default-fieldset{
+    padding: .8rem;
+    border: 1px solid black;
+}
+.default-fieldset > legend{
+    float: unset;
+    font-size: .9rem;
+    padding: .4rem;
+    margin-bottom: 0;
+}
+#main-container {
+    min-height: 60vh;
+}
+img {
+    width: 25%;
+    height: 25%;
+}
+  
+
+  
